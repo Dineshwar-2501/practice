@@ -13,24 +13,47 @@
 <meta property="og:url" content="https://logo.clearbit.com/amazon.com">
 <meta property="og:type" content="website/table">
 
+<meta name="twitter:card" content="https://logo.clearbit.com/amazon.com">
+<meta name="twitter:title" content="https://logo.clearbit.com/amazon.com">
+<meta name="twitter:description" content="https://logo.clearbit.com/amazon.com">
+<meta name="twitter:image" content="https://logo.clearbit.com/amazon.com">
+<meta name="twitter:site" content="https://logo.clearbit.com/amazon.com">
+<meta name="twitter:creator" content="@dinesh">
+<meta name="twitter:domain" content="https://logo.clearbit.com/amazon.com">
+<meta name="twitter:url" content="https://logo.clearbit.com/amazon.com">
+
+
+<!-- 
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest"> -->
+<link rel="shortcut icon" href="./favicon_io/favicon.ico" type="image/x-icon">
 <title>Responsive Table</title>
+
 </head>
 <body>
   <header>
     <nav>
+      
       <a href="">table 1</a>
       <a href="">table 2</a>
       <a href="">table 3</a>
     </nav>
   </header>
-  <main>hh
+  <main>
+    
     <section>
       <div class="container">
-        
-<label for="volume">volume :</label>
-<span id="val">50%</span>
-<input type="range" id="volume" name="volume" min="0" max="100" oninput="document.getElementById('val').innerText=this.value + '%'" value="50" step="1" title="Set the volume">
-
+        <div>
+          <label for="volume">volume :</label>
+          <span id="val">50%</span>
+          <input type="range" id="volume" name="volume" min="0" max="100" oninput="document.getElementById('val').innerText=this.value + '%'" value="50" step="1" title="Set the volume">
+        </div>
+        <div>
+          <label for="Password">Password</label>
+          <input type="password" name="password" id="Password" placeholder="Enter your password" required pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*[@_])(?=.*[0-9])[A-Z]+[a-z]+[@_]+[0-9]+.{3,12}$" title="Must start with uppercase letter(s), then lowercase letter(s), then special symbol (@ or _), then number(s), each at least once, and be at least 11 characters long" autocomplete="new-password">
+        </div>
       </div>
     </section>
   </main>
